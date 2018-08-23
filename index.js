@@ -77,7 +77,7 @@ class Transaction {
       name: 'type',
       length: 8,
       allowLess: true,
-      default: new Buffer([])
+      default: new Buffer([0x00])
     }, {
       name: 'data',
       alias: 'input',
